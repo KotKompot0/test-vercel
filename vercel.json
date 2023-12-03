@@ -2,14 +2,8 @@
   "version": 2,
   "builds": [
     {
-      "src": "app.js",
+      "src": "package.json",
       "use": "@now/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/bin/www"
     }
   ]
 }
